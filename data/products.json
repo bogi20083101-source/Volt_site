@@ -1,0 +1,982 @@
+{
+  "categories": [
+    {
+      "slug": "smartphones",
+      "name": "Смартфоны",
+      "icon": "📱"
+    },
+    {
+      "slug": "audio",
+      "name": "Наушники и аудио",
+      "icon": "🎧"
+    },
+    {
+      "slug": "laptops",
+      "name": "Ноутбуки",
+      "icon": "💻"
+    },
+    {
+      "slug": "tablets",
+      "name": "Планшеты",
+      "icon": "📲"
+    },
+    {
+      "slug": "wearables",
+      "name": "Умные часы",
+      "icon": "⌚"
+    },
+    {
+      "slug": "accessories",
+      "name": "Аксессуары",
+      "icon": "🔌"
+    },
+    {
+      "slug": "cameras",
+      "name": "Камеры",
+      "icon": "📷"
+    },
+    {
+      "slug": "gaming",
+      "name": "Игровое",
+      "icon": "🎮"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "title": "Смартфон Aurora X Pro 256GB",
+      "brand": "Aurora",
+      "category": "smartphones",
+      "price": 74990,
+      "oldPrice": 89990,
+      "rating": 4.8,
+      "stock": 14,
+      "isNew": false,
+      "description": "Флагманский смартфон с AMOLED-экраном 6.7\", тройной камерой 108 Мп и быстрой зарядкой 65Вт. Идеален для фото, видео и игр.",
+      "image": "https://cdn.dummyjson.com/product-images/smartphones/vivo-x21/3.webp",
+      "tags": {
+        "color": "Чёрный",
+        "type": "Флагман",
+        "memory": "256 ГБ"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Беспроводные наушники SoundWave Air 3",
+      "brand": "SoundWave",
+      "category": "audio",
+      "price": 12990,
+      "oldPrice": 16990,
+      "rating": 4.7,
+      "stock": 32,
+      "isNew": false,
+      "description": "TWS-наушники с активным шумоподавлением, временем работы до 30 часов и поддержкой Hi-Res Audio.",
+      "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-iphone-charger/2.webp",
+      "tags": {
+        "color": "Белый",
+        "type": "TWS",
+        "memory": "-"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Ноутбук UltraBook 14 Air i7",
+      "brand": "UltraBook",
+      "category": "laptops",
+      "price": 99990,
+      "oldPrice": null,
+      "rating": 4.9,
+      "stock": 7,
+      "isNew": true,
+      "description": "Ультратонкий ноутбук с процессором Intel Core i7, 16 ГБ ОЗУ и SSD 512 ГБ. Вес всего 1.2 кг.",
+      "image": "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/3.webp",
+      "tags": {
+        "color": "Серый",
+        "type": "Ультрабук",
+        "memory": "512 ГБ"
+      }
+    },
+    {
+      "id": 4,
+      "title": "Планшет Tab S 11\" 128GB Wi-Fi",
+      "brand": "Galaxy",
+      "category": "tablets",
+      "price": 54990,
+      "oldPrice": 64990,
+      "rating": 4.6,
+      "stock": 11,
+      "isNew": false,
+      "description": "Планшет с TFT-экраном 11\", 8-ядерным процессором и стилусом в комплекте. Подходит для работы и развлечений.",
+      "image": "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-white/4.webp",
+      "tags": {
+        "color": "Серебристый",
+        "type": "Планшет",
+        "memory": "128 ГБ"
+      }
+    },
+    {
+      "id": 5,
+      "title": "Умные часы FitWatch Pro 5",
+      "brand": "FitWatch",
+      "category": "wearables",
+      "price": 19990,
+      "oldPrice": 24990,
+      "rating": 4.5,
+      "stock": 25,
+      "isNew": false,
+      "description": "Смарт-часы с AMOLED-экраном, GPS, пульсоксиметром и автономностью до 14 дней. Более 100 спортивных режимов.",
+      "image": "https://cdn.dummyjson.com/product-images/womens-watches/women's-wrist-watch/3.webp",
+      "tags": {
+        "color": "Чёрный",
+        "type": "Смарт-часы",
+        "memory": "-"
+      }
+    },
+    {
+      "id": 6,
+      "title": "Зарядная станция PowerHub 100W",
+      "brand": "VoltMax",
+      "category": "accessories",
+      "price": 4990,
+      "oldPrice": 6990,
+      "rating": 4.4,
+      "stock": 50,
+      "isNew": false,
+      "description": "Гаджет с 4 портами USB-C и Quick Charge 4.0. Заряжает ноутбук, телефон и наушники одновременно.",
+      "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/tv-studio-camera-pedestal/1.webp",
+      "tags": {
+        "color": "Чёрный",
+        "type": "Зарядка",
+        "memory": "-"
+      }
+    },
+    {
+      "id": 7,
+      "title": "Беззеркальная камера PixShot Z50",
+      "brand": "PixShot",
+      "category": "cameras",
+      "price": 84990,
+      "oldPrice": 99990,
+      "rating": 4.7,
+      "stock": 5,
+      "isNew": false,
+      "description": "Камера с матрицей APS-C 24 Мп, 4K-видео и поворотным экраном. Компактная и лёгкая.",
+      "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/tv-studio-camera-pedestal/1.webp",
+      "tags": {
+        "color": "Чёрный",
+        "type": "Беззеркальная",
+        "memory": "-"
+      }
+    },
+    {
+      "id": 8,
+      "title": "Игровая консоль NextGen X",
+      "brand": "NextGen",
+      "category": "gaming",
+      "price": 44990,
+      "oldPrice": null,
+      "rating": 4.9,
+      "stock": 3,
+      "isNew": true,
+      "description": "Консоль нового поколения с поддержкой 4K 120fps, SSD 1 ТБ и обратной совместимостью.",
+      "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/amazon-echo-plus/thumbnail.webp",
+      "tags": {
+        "color": "Белый",
+        "type": "Консоль",
+        "memory": "1 ТБ"
+      }
+    },
+    {
+      "id": 9,
+      "title": "Смартфон Aurora Lite 128GB",
+      "brand": "Aurora",
+      "category": "smartphones",
+      "price": 34990,
+      "oldPrice": 42990,
+      "rating": 4.5,
+      "stock": 22,
+      "isNew": false,
+      "description": "Доступный смартфон с IPS-экраном 6.5\", батареей 5000 мАч и камерой 48 Мп.",
+      "image": "https://cdn.dummyjson.com/product-images/smartphones/vivo-x21/2.webp",
+      "tags": {
+        "color": "Синий",
+        "type": "Бюджетный",
+        "memory": "128 ГБ"
+      }
+    },
+    {
+      "id": 10,
+      "title": "Накладные наушники BassBoom Pro",
+      "brand": "SoundWave",
+      "category": "audio",
+      "price": 8990,
+      "oldPrice": 11990,
+      "rating": 4.6,
+      "stock": 18,
+      "isNew": false,
+      "description": "Полноразмерные наушники с мощным басом, автономностью 40 часов и складной конструкцией.",
+      "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-iphone-charger/1.webp",
+      "tags": {
+        "color": "Чёрный",
+        "type": "Накладные",
+        "memory": "-"
+      }
+    },
+    {
+      "id": 11,
+      "title": "Игровой ноутбук Titan GTX 16",
+      "brand": "UltraBook",
+      "category": "laptops",
+      "price": 124990,
+      "oldPrice": 144990,
+      "rating": 4.7,
+      "stock": 4,
+      "isNew": false,
+      "description": "Игровой ноутбук с RTX 4060, 32 ГБ ОЗУ и частотой экрана 165 Гц. Готов к любым играм.",
+      "image": "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/2.webp",
+      "tags": {
+        "color": "Чёрный",
+        "type": "Игровой",
+        "memory": "1 ТБ"
+      }
+    },
+    {
+      "id": 12,
+      "title": "Планшет Tab Mini 8\" 64GB",
+      "brand": "Galaxy",
+      "category": "tablets",
+      "price": 19990,
+      "oldPrice": null,
+      "rating": 4.3,
+      "stock": 16,
+      "isNew": false,
+      "description": "Компактный планшет для чтения и просмотра видео. Лёгкий и удобный для поездок.",
+      "image": "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-white/3.webp",
+      "tags": {
+        "color": "Золотистый",
+        "type": "Планшет",
+        "memory": "64 ГБ"
+      }
+    },
+    {
+      "id": 13,
+      "title": "Фитнес-браслет Band Active 6",
+      "brand": "FitWatch",
+      "category": "wearables",
+      "price": 5990,
+      "oldPrice": 7990,
+      "rating": 4.4,
+      "stock": 40,
+      "isNew": false,
+      "description": "Фитнес-браслет с пульсометром, мониторингом сна и автономностью 12 дней.",
+      "image": "https://cdn.dummyjson.com/product-images/womens-watches/women's-wrist-watch/2.webp",
+      "tags": {
+        "color": "Розовый",
+        "type": "Браслет",
+        "memory": "-"
+      }
+    },
+    {
+      "id": 14,
+      "title": "Power Bank 20000mAh FastCharge",
+      "brand": "VoltMax",
+      "category": "accessories",
+      "price": 2990,
+      "oldPrice": 3990,
+      "rating": 4.6,
+      "stock": 60,
+      "isNew": false,
+      "description": "Внешний аккумулятор 20000 мАч с быстрой зарядкой 30Вт и двумя портами.",
+      "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/tv-studio-camera-pedestal/thumbnail.webp",
+      "tags": {
+        "color": "Чёрный",
+        "type": "Power Bank",
+        "memory": "-"
+      }
+    },
+    {
+      "id": 15,
+      "title": "Экшн-камера ActionCam 4K Pro",
+      "brand": "PixShot",
+      "category": "cameras",
+      "price": 27990,
+      "oldPrice": 32990,
+      "rating": 4.5,
+      "stock": 9,
+      "isNew": true,
+      "description": "Экшн-камера с 4K 60fps, стабилизацией изображения и защитой от воды IPX8.",
+      "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/tv-studio-camera-pedestal/thumbnail.webp",
+      "tags": {
+        "color": "Чёрный",
+        "type": "Экшн",
+        "memory": "-"
+      }
+    },
+    {
+      "id": 16,
+      "title": "Геймпад NextGen Wireless Pro",
+      "brand": "NextGen",
+      "category": "gaming",
+      "price": 6990,
+      "oldPrice": null,
+      "rating": 4.8,
+      "stock": 28,
+      "isNew": false,
+      "description": "Беспроводной геймпад с тактильной отдачей, джойстиками и автономностью 40 часов.",
+      "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/amazon-echo-plus/1.webp",
+      "tags": {
+        "color": "Синий",
+        "type": "Геймпад",
+        "memory": "-"
+      }
+    },
+    {
+      "id": 17,
+      "title": "Смартфон Aurora Z Fold 512GB",
+      "brand": "Aurora",
+      "category": "smartphones",
+      "price": 159990,
+      "oldPrice": 179990,
+      "rating": 4.7,
+      "stock": 2,
+      "isNew": true,
+      "description": "Складной смартфон с гибким AMOLED-экраном 7.6\" и топовой камерой.",
+      "image": "https://cdn.dummyjson.com/product-images/smartphones/vivo-x21/1.webp",
+      "tags": {
+        "color": "Чёрный",
+        "type": "Складной",
+        "memory": "512 ГБ"
+      }
+    },
+    {
+      "id": 18,
+      "title": "Игровая гарнитура GameSound X",
+      "brand": "SoundWave",
+      "category": "audio",
+      "price": 7490,
+      "oldPrice": 9990,
+      "rating": 4.5,
+      "stock": 21,
+      "isNew": false,
+      "description": "Игровые наушники с объёмным звуком 7.1, шумоподавляющим микрофоном и RGB-подсветкой.",
+      "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-iphone-charger/thumbnail.webp",
+      "tags": {
+        "color": "Чёрный",
+        "type": "Гарнитура",
+        "memory": "-"
+      }
+    },
+    {
+      "id": 19,
+      "title": "Ноутбук Office 15 Core i5",
+      "brand": "UltraBook",
+      "category": "laptops",
+      "price": 59990,
+      "oldPrice": 69990,
+      "rating": 4.4,
+      "stock": 13,
+      "isNew": false,
+      "description": "Офисный ноутбук с 15.6\" экраном, SSD 256 ГБ и батареей на 10 часов работы.",
+      "image": "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/1.webp",
+      "tags": {
+        "color": "Серый",
+        "type": "Офисный",
+        "memory": "256 ГБ"
+      }
+    },
+    {
+      "id": 20,
+      "title": "Планшет Tab Pro 12.4\" 256GB",
+      "brand": "Galaxy",
+      "category": "tablets",
+      "price": 79990,
+      "oldPrice": null,
+      "rating": 4.8,
+      "stock": 6,
+      "isNew": true,
+      "description": "Профессиональный планшет с AMOLED 12.4\", 12 ГБ ОЗУ и клавиатурой в комплекте.",
+      "image": "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-white/2.webp",
+      "tags": {
+        "color": "Тёмно-серый",
+        "type": "Pro",
+        "memory": "256 ГБ"
+      }
+    },
+    {
+      "id": 21,
+      "title": "Смарт-часы FitWatch SE 3",
+      "brand": "FitWatch",
+      "category": "wearables",
+      "price": 14990,
+      "oldPrice": null,
+      "rating": 4.4,
+      "stock": 19,
+      "isNew": false,
+      "description": "Часы с ECG, SpO2 и функцией Bluetooth-звонков. Стильный дизайн.",
+      "image": "https://cdn.dummyjson.com/product-images/womens-watches/women's-wrist-watch/1.webp",
+      "tags": {
+        "color": "Серебристый",
+        "type": "Смарт-часы",
+        "memory": "-"
+      }
+    },
+    {
+      "id": 22,
+      "title": "Кабель USB-C на USB-C 2м",
+      "brand": "VoltMax",
+      "category": "accessories",
+      "price": 990,
+      "oldPrice": 1490,
+      "rating": 4.7,
+      "stock": 100,
+      "isNew": false,
+      "description": "Прочный плетёный кабель USB-C с поддержкой зарядки 100Вт и передачи данных.",
+      "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/selfie-stick-monopod/1.webp",
+      "tags": {
+        "color": "Чёрный",
+        "type": "Кабель",
+        "memory": "-"
+      }
+    },
+    {
+      "id": 23,
+      "title": "Камера наблюдения SecureCam 2K",
+      "brand": "PixShot",
+      "category": "cameras",
+      "price": 6990,
+      "oldPrice": 8990,
+      "rating": 4.3,
+      "stock": 27,
+      "isNew": false,
+      "description": "Wi-Fi камера с разрешением 2K, ночным видением и обнаружением движения.",
+      "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/amazon-echo-plus/thumbnail.webp",
+      "tags": {
+        "color": "Белый",
+        "type": "Камера",
+        "memory": "-"
+      }
+    },
+    {
+      "id": 24,
+      "title": "Игровое кресло Racer GT Pro",
+      "brand": "NextGen",
+      "category": "gaming",
+      "price": 32990,
+      "oldPrice": 39990,
+      "rating": 4.6,
+      "stock": 8,
+      "isNew": false,
+      "description": "Эргономичное игровое кресло с поясной поддержкой, подлокотниками 4D и тканевой обивкой.",
+      "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/amazon-echo-plus/2.webp",
+      "tags": {
+        "color": "Чёрно-красный",
+        "type": "Кресло",
+        "memory": "-"
+      }
+    },
+    {
+      "id": 25,
+      "title": "Смартфон Aurora Note 256GB",
+      "brand": "Aurora",
+      "category": "smartphones",
+      "price": 59990,
+      "oldPrice": null,
+      "rating": 4.6,
+      "stock": 10,
+      "isNew": false,
+      "description": "Смартфон с большим экраном 6.9\", стилусом и батареей 5500 мАч.",
+      "image": "https://cdn.dummyjson.com/product-images/smartphones/vivo-x21/thumbnail.webp",
+      "tags": {
+        "color": "Зелёный",
+        "type": "Note",
+        "memory": "256 ГБ"
+      }
+    },
+    {
+      "id": 26,
+      "title": "Портативная колонка MiniBoom 2",
+      "brand": "SoundWave",
+      "category": "audio",
+      "price": 4990,
+      "oldPrice": 6990,
+      "rating": 4.5,
+      "stock": 35,
+      "isNew": false,
+      "description": "Водонепроницаемая Bluetooth-колонка с мощным звуком 20Вт и автономностью 18 часов.",
+      "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpower-wireless-charger/1.webp",
+      "tags": {
+        "color": "Синий",
+        "type": "Колонка",
+        "memory": "-"
+      }
+    },
+    {
+      "id": 27,
+      "title": "Ноутбук UltraBook 16 Pro M2",
+      "brand": "UltraBook",
+      "category": "laptops",
+      "price": 159990,
+      "oldPrice": 179990,
+      "rating": 4.9,
+      "stock": 3,
+      "isNew": true,
+      "description": "Профессиональный ноутбук с чипом M2, 16.2\" Liquid Retina и автономностью 22 часа.",
+      "image": "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/thumbnail.webp",
+      "tags": {
+        "color": "Серый",
+        "type": "Pro",
+        "memory": "512 ГБ"
+      }
+    },
+    {
+      "id": 28,
+      "title": "Планшет Tab E 10\" 32GB",
+      "brand": "Galaxy",
+      "category": "tablets",
+      "price": 12990,
+      "oldPrice": 15990,
+      "rating": 4.1,
+      "stock": 14,
+      "isNew": false,
+      "description": "Бюджетный планшет для базовых задач и просмотра видео.",
+      "image": "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-white/1.webp",
+      "tags": {
+        "color": "Чёрный",
+        "type": "Бюджетный",
+        "memory": "32 ГБ"
+      }
+    },
+    {
+      "id": 29,
+      "title": "Смарт-часы FitWatch Kids",
+      "brand": "FitWatch",
+      "category": "wearables",
+      "price": 6990,
+      "oldPrice": null,
+      "rating": 4.2,
+      "stock": 22,
+      "isNew": false,
+      "description": "Детские смарт-часы с GPS-трекингом, звонками и кнопкой SOS.",
+      "image": "https://cdn.dummyjson.com/product-images/womens-watches/women's-wrist-watch/thumbnail.webp",
+      "tags": {
+        "color": "Розовый",
+        "type": "Детские",
+        "memory": "-"
+      }
+    },
+    {
+      "id": 30,
+      "title": "Беспроводная зарядка Qi 15W",
+      "brand": "VoltMax",
+      "category": "accessories",
+      "price": 1990,
+      "oldPrice": 2990,
+      "rating": 4.4,
+      "stock": 45,
+      "isNew": false,
+      "description": "Беспроводная зарядка 15Вт с защитой от перегрева и LED-индикатором.",
+      "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/selfie-stick-monopod/thumbnail.webp",
+      "tags": {
+        "color": "Чёрный",
+        "type": "Зарядка",
+        "memory": "-"
+      }
+    },
+    {
+      "id": 31,
+      "title": "Фотоаппарат PixShot Compact 24MP",
+      "brand": "PixShot",
+      "category": "cameras",
+      "price": 18990,
+      "oldPrice": 22990,
+      "rating": 4.4,
+      "stock": 12,
+      "isNew": false,
+      "description": "Компактная мыльница с 20x зумом, оптической стабилизацией и Wi-Fi.",
+      "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/amazon-echo-plus/1.webp",
+      "tags": {
+        "color": "Серебристый",
+        "type": "Компактная",
+        "memory": "-"
+      }
+    },
+    {
+      "id": 32,
+      "title": "Игровая клавиатура MechKey RGB",
+      "brand": "NextGen",
+      "category": "gaming",
+      "price": 8990,
+      "oldPrice": null,
+      "rating": 4.7,
+      "stock": 17,
+      "isNew": true,
+      "description": "Механическая клавиатура с RGB-подсветкой, тактильными свитчами и алюминиевой рамой.",
+      "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods/thumbnail.webp",
+      "tags": {
+        "color": "Чёрный",
+        "type": "Клавиатура",
+        "memory": "-"
+      }
+    },
+    {
+      "id": 33,
+      "title": "Смартфон Aurora A50 64GB",
+      "brand": "Aurora",
+      "category": "smartphones",
+      "price": 19990,
+      "oldPrice": 24990,
+      "rating": 4.3,
+      "stock": 30,
+      "isNew": false,
+      "description": "Бюджетный смартфон с хорошей камерой и большой батареей.",
+      "image": "https://cdn.dummyjson.com/product-images/smartphones/vivo-v9/3.webp",
+      "tags": {
+        "color": "Синий",
+        "type": "Бюджетный",
+        "memory": "64 ГБ"
+      }
+    },
+    {
+      "id": 34,
+      "title": "Студийные мониторы StudioMix 5",
+      "brand": "SoundWave",
+      "category": "audio",
+      "price": 15990,
+      "oldPrice": null,
+      "rating": 4.6,
+      "stock": 7,
+      "isNew": false,
+      "description": "Пара активных студийных мониторов для точного мониторинга звука.",
+      "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpower-wireless-charger/thumbnail.webp",
+      "tags": {
+        "color": "Чёрный",
+        "type": "Мониторы",
+        "memory": "-"
+      }
+    },
+    {
+      "id": 35,
+      "title": "Ноутбук UltraBook 13 Touch",
+      "brand": "UltraBook",
+      "category": "laptops",
+      "price": 84990,
+      "oldPrice": 94990,
+      "rating": 4.5,
+      "stock": 9,
+      "isNew": false,
+      "description": "Ноутбук с сенсорным экраном 13.3\", Core i5 и весом 1.3 кг.",
+      "image": "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/3.webp",
+      "tags": {
+        "color": "Серебристый",
+        "type": "Ультрабук",
+        "memory": "256 ГБ"
+      }
+    },
+    {
+      "id": 36,
+      "title": "Планшет Tab Lite 9\" 16GB",
+      "brand": "Galaxy",
+      "category": "tablets",
+      "price": 9990,
+      "oldPrice": 11990,
+      "rating": 4,
+      "stock": 20,
+      "isNew": false,
+      "description": "Лёгкий планшет для детей и базовых задач.",
+      "image": "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-white/thumbnail.webp",
+      "tags": {
+        "color": "Белый",
+        "type": "Бюджетный",
+        "memory": "16 ГБ"
+      }
+    },
+    {
+      "id": 37,
+      "title": "Часы FitWatch Sport GPS",
+      "brand": "FitWatch",
+      "category": "wearables",
+      "price": 11990,
+      "oldPrice": 14990,
+      "rating": 4.5,
+      "stock": 16,
+      "isNew": false,
+      "description": "Спортивные часы с многочастотным GPS и автономностью 30 дней.",
+      "image": "https://cdn.dummyjson.com/product-images/womens-watches/watch-gold-for-women/3.webp",
+      "tags": {
+        "color": "Оранжевый",
+        "type": "Спортивные",
+        "memory": "-"
+      }
+    },
+    {
+      "id": 38,
+      "title": "Док-станция USB-C 11-в-1",
+      "brand": "VoltMax",
+      "category": "accessories",
+      "price": 7990,
+      "oldPrice": 9990,
+      "rating": 4.5,
+      "stock": 14,
+      "isNew": true,
+      "description": "Док с HDMI 4K, USB 3.0, картридером и зарядкой 100Вт.",
+      "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/selfie-lamp-with-iphone/1.webp",
+      "tags": {
+        "color": "Серый",
+        "type": "Док",
+        "memory": "-"
+      }
+    },
+    {
+      "id": 39,
+      "title": "Объектив PixShot 50mm f/1.8",
+      "brand": "PixShot",
+      "category": "cameras",
+      "price": 13990,
+      "oldPrice": null,
+      "rating": 4.8,
+      "stock": 11,
+      "isNew": false,
+      "description": "Светосильный портретный объектив с быстрой автофокусировкой.",
+      "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/amazon-echo-plus/2.webp",
+      "tags": {
+        "color": "Чёрный",
+        "type": "Объектив",
+        "memory": "-"
+      }
+    },
+    {
+      "id": 40,
+      "title": "Игровая мышь SpeedMouse 16000",
+      "brand": "NextGen",
+      "category": "gaming",
+      "price": 3990,
+      "oldPrice": 5990,
+      "rating": 4.6,
+      "stock": 33,
+      "isNew": false,
+      "description": "Лёгкая игровая мышь с сенсором 16000 DPI и проводным подключением.",
+      "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods/1.webp",
+      "tags": {
+        "color": "Чёрный",
+        "type": "Мышь",
+        "memory": "-"
+      }
+    },
+    {
+      "id": 41,
+      "title": "Смартфон Aurora Flip 128GB",
+      "brand": "Aurora",
+      "category": "smartphones",
+      "price": 89990,
+      "oldPrice": 109990,
+      "rating": 4.5,
+      "stock": 4,
+      "isNew": true,
+      "description": "Раскладной смартфон с двумя экранами и компактным размером в сложенном виде.",
+      "image": "https://cdn.dummyjson.com/product-images/smartphones/vivo-v9/2.webp",
+      "tags": {
+        "color": "Фиолетовый",
+        "type": "Раскладной",
+        "memory": "128 ГБ"
+      }
+    },
+    {
+      "id": 42,
+      "title": "Усилитель SoundWave Mini",
+      "brand": "SoundWave",
+      "category": "audio",
+      "price": 11990,
+      "oldPrice": null,
+      "rating": 4.4,
+      "stock": 6,
+      "isNew": false,
+      "description": "Компактный усилитель для домашних аудиосистем с Bluetooth.",
+      "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/amazon-echo-plus/thumbnail.webp",
+      "tags": {
+        "color": "Чёрный",
+        "type": "Усилитель",
+        "memory": "-"
+      }
+    },
+    {
+      "id": 43,
+      "title": "Трансформер UltraBook 2-в-1 i7",
+      "brand": "UltraBook",
+      "category": "laptops",
+      "price": 109990,
+      "oldPrice": 129990,
+      "rating": 4.6,
+      "stock": 5,
+      "isNew": false,
+      "description": "Ноутбук-трансформер с поворотным экраном 360° и стилусом.",
+      "image": "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/2.webp",
+      "tags": {
+        "color": "Синий",
+        "type": "Трансформер",
+        "memory": "512 ГБ"
+      }
+    },
+    {
+      "id": 44,
+      "title": "Планшет Tab S Pen Edition",
+      "brand": "Galaxy",
+      "category": "tablets",
+      "price": 44990,
+      "oldPrice": null,
+      "rating": 4.5,
+      "stock": 9,
+      "isNew": false,
+      "description": "Планшет со стилусом S Pen, оптимизированный для заметок и рисования.",
+      "image": "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-s8-plus-grey/4.webp",
+      "tags": {
+        "color": "Розовый",
+        "type": "Note",
+        "memory": "128 ГБ"
+      }
+    },
+    {
+      "id": 45,
+      "title": "Смарт-часы FitWatch Classic",
+      "brand": "FitWatch",
+      "category": "wearables",
+      "price": 17990,
+      "oldPrice": 21990,
+      "rating": 4.4,
+      "stock": 12,
+      "isNew": false,
+      "description": "Классические смарт-часы с аналоговым дизайном и цифровыми функциями.",
+      "image": "https://cdn.dummyjson.com/product-images/womens-watches/watch-gold-for-women/2.webp",
+      "tags": {
+        "color": "Коричневый",
+        "type": "Classic",
+        "memory": "-"
+      }
+    },
+    {
+      "id": 46,
+      "title": "Автомобильное крепление MagMount",
+      "brand": "VoltMax",
+      "category": "accessories",
+      "price": 2490,
+      "oldPrice": 3490,
+      "rating": 4.3,
+      "stock": 38,
+      "isNew": false,
+      "description": "Магнитное крепление для смартфона с быстрой беспроводной зарядкой.",
+      "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/selfie-lamp-with-iphone/thumbnail.webp",
+      "tags": {
+        "color": "Чёрный",
+        "type": "Крепление",
+        "memory": "-"
+      }
+    },
+    {
+      "id": 47,
+      "title": "Стабилизатор PixShot Gimbal 3",
+      "brand": "PixShot",
+      "category": "cameras",
+      "price": 19990,
+      "oldPrice": 24990,
+      "rating": 4.6,
+      "stock": 8,
+      "isNew": true,
+      "description": "3-осевой стабилизатор для смартфона с продолжительностью работы 12 часов.",
+      "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods/thumbnail.webp",
+      "tags": {
+        "color": "Серый",
+        "type": "Стабилизатор",
+        "memory": "-"
+      }
+    },
+    {
+      "id": 48,
+      "title": "Геймерский коврик BigPad XXL",
+      "brand": "NextGen",
+      "category": "gaming",
+      "price": 1990,
+      "oldPrice": null,
+      "rating": 4.7,
+      "stock": 50,
+      "isNew": false,
+      "description": "Большой тканевый коврик для клавиатуры и мыши с антискользящим основанием.",
+      "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods/2.webp",
+      "tags": {
+        "color": "Чёрный",
+        "type": "Коврик",
+        "memory": "-"
+      }
+    },
+    {
+      "id": 49,
+      "title": "Смартфон Aurora SE 5G 256GB",
+      "brand": "Aurora",
+      "category": "smartphones",
+      "price": 64990,
+      "oldPrice": 74990,
+      "rating": 4.7,
+      "stock": 8,
+      "isNew": false,
+      "description": "Смартфон с поддержкой 5G, 120Hz экраном и тройной камерой 50 Мп.",
+      "image": "https://cdn.dummyjson.com/product-images/smartphones/vivo-v9/1.webp",
+      "tags": {
+        "color": "Графитовый",
+        "type": "5G",
+        "memory": "256 ГБ"
+      }
+    },
+    {
+      "id": 50,
+      "title": "Колонка SoundWave Home 360",
+      "brand": "SoundWave",
+      "category": "audio",
+      "price": 22990,
+      "oldPrice": 27990,
+      "rating": 4.7,
+      "stock": 10,
+      "isNew": false,
+      "description": "Умная колонка с объёмным звуком 360°, встроенным ассистентом и управлением умным домом.",
+      "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/amazon-echo-plus/1.webp",
+      "tags": {
+        "color": "Серый",
+        "type": "Умная",
+        "memory": "-"
+      }
+    },
+    {
+      "id": 51,
+      "title": "Ноутбук Creator 15 Studio",
+      "brand": "UltraBook",
+      "category": "laptops",
+      "price": 139990,
+      "oldPrice": null,
+      "rating": 4.8,
+      "stock": 4,
+      "isNew": true,
+      "description": "Ноутбук для создателей контента с экраном 4K OLED, RTX 4070 и калибровкой цвета.",
+      "image": "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/1.webp",
+      "tags": {
+        "color": "Чёрный",
+        "type": "Creator",
+        "memory": "1 ТБ"
+      }
+    },
+    {
+      "id": 52,
+      "title": "Видеорегистратор DashCam 4K",
+      "brand": "PixShot",
+      "category": "cameras",
+      "price": 12990,
+      "oldPrice": 15990,
+      "rating": 4.4,
+      "stock": 15,
+      "isNew": false,
+      "description": "Видеорегистратор с разрешением 4K, GPS и датчиком удара.",
+      "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods/1.webp",
+      "tags": {
+        "color": "Чёрный",
+        "type": "Регистратор",
+        "memory": "-"
+      }
+    }
+  ]
+}
